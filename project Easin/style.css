@@ -1,0 +1,425 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  text-decoration: none;
+  margin: 0px;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header start */
+#header {
+  background-color: #ffffff;
+  padding: 21px 0px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: ease 0.2s;
+  border-radius: 0px 0px 10px 10px;
+  z-index: 100;
+}
+/* header end */
+
+/* welcome-user start */
+.welcome-user {
+  margin-top: 103px;
+  padding: 10px 0px;
+}
+.welcome-user .user-details{
+  display: flex;
+}
+.welcome-user .user-avator img {
+  width: 65px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 3px 10px 1px #d4d3d3;
+}
+.user-text {
+  margin-left: 17px;
+}
+.user-text h4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  margin-top: 7px;
+}
+.user-text h4 strong {
+  font-weight: 700;
+}
+.user-text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #97989a;
+}
+/* welcome-user end */
+
+/* credit card start */
+.credit-card {
+  margin: 30px 0px;
+}
+.credit-card .card {
+  padding: 15px;
+  transition: 0.2s ease-in-out;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px 0.5px #e9e6e6;
+}
+.credit-card .card:hover {
+  background: #dadadabb;
+}
+.credit-card .card img {
+  width: 75px;
+  height: auto;
+  margin-bottom: 5px;
+}
+.credit-card .card i::after {
+  content: "cash wallet";
+  margin-left: 7px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2e2d2d;
+  text-transform: capitalize;
+}
+.credit-card .card-2 i::after {
+  content: "income wallet";
+}
+.credit-card .card-3 i::after {
+  content: "agent wallet";
+}
+.credit-card .card-4 i::after {
+  content: "Available Coins";
+}
+.credit-card .card h4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  padding: 15px 0px 10px 0px;
+}
+.credit-card .card h4::after {
+  content: "€";
+  margin-left: 7px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: #97989a;
+  text-transform: capitalize;
+}
+.credit-card .card a {
+  color: rgb(51, 51, 51);
+  font-family: "Open Sans", sans-serif;
+}
+.credit-card .card a:hover {
+  color: #21a3f1;
+}
+.credit-card .card-2 img {
+  margin-left: -15px;
+}
+.credit-card .card-3 img {
+  margin-left: -15px;
+}
+.credit-card .card-4 img {
+  margin-left: -10px;
+}
+/* credit card end */
+
+/* icon-menu start */
+.icon-menu {
+  margin: 45px 0px;
+  background: #ffffff;
+}
+.icon-menu .icon {
+  cursor: pointer;
+}
+.icon-menu .icon img {
+  padding: 15px;
+  width: 70px;
+  border: 1px solid rgb(8, 160, 234);
+  border-radius: 20px;
+  box-shadow: 0px 5px 14px rgb(163, 163, 163);
+  background: #ffffff;
+}
+.icon-menu .icon img:hover {
+  background: #dadadabb;
+}
+.icon-menu .icon h6 {
+  color: rgb(8, 160, 234);
+  font-size: 16px;
+  padding-top: 15px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+/* icon-menu end */
+
+/* Earn box start  */
+.earnBox-container {
+  margin: 30px 0px;
+}
+.earnBox-container .earn-box {
+  background: #ff3131;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+}
+.earnBox-container .earn-box i {
+  background: #ffff;
+  padding: 13px;
+  border-radius: 50%;
+  color: #3fff00;
+}
+.earnBox-container .earn-box .earn-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  margin-left: 15px;
+}
+.earnBox-container .earn-box-2 {
+  background: #e7431e;
+}
+.earnBox-container .earn-box-3 {
+  background: #0074b5;
+  padding: 18px 15px;
+}
+.earnBox-container .earn-box-4 {
+  background: #0074b5;
+}
+
+/* Earn box end  */
+/* member counter start */
+.counter-container{
+  margin: 50px 0px;
+}
+.counter-content{
+  background: rgb(7, 7, 7);
+  border: 1px solid #21a3f1;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px 0px;
+  color: #ffffff;
+}
+#counter{
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  letter-spacing: 15px;
+}
+.counter-content h1{
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight:700;
+  text-transform: capitalize;
+}
+/* member counter end */
+/* referral link start */
+.referral-container{
+  margin: 40px 0px;
+}
+.referral-container .row{
+  background: #059fff;
+  border-radius: 15px;
+}
+.referral-link {
+  position: relative;
+}
+.referral-link #link{
+  width: 98%;
+  margin:20px 25px 10px 20px;
+  padding: 29px 0px 13px 18px;
+  vertical-align: bottom;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.referral-link p{
+  position: absolute;
+  top: 32px;
+  left: 24px;
+  color: #97989a;
+  font-size: 13px;
+  font-family: "Nunito", sans-serif;
+}
+.referral-link .fa-copy{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  color: #000;
+  cursor: pointer;
+}
+.social-icon{
+  padding: 8px 0px 20px 20px;
+}
+.social-icon span{
+  color: #ffffff;
+}
+.social-icon i{
+  margin: 0px 5px;
+  font-size: 23px;
+}
+.social-icon .fa-facebook{
+  color: #2125AB;
+ 
+}
+.social-icon .fa-google{
+color: #FF3E30;
+
+}
+.social-icon .fa-instagram-square{
+  color: #7D3BA5;
+}
+.social-icon .fa-twitter{
+  color: #004b7a;
+  
+}
+.referral-image{
+  text-align: center;
+  padding: 20px;
+}
+/* referral link end */
+
+/*news-container start */
+.news-container{
+  margin: 20px 0px 50px 0px;
+}
+.id-section{
+  border-radius: 15px;
+  padding: 20px;
+  transition: .3s ease-in-out;
+}
+.id-section:hover{
+  background: #dadadabb;
+}
+.user{
+  /* padding: 20px 20px 12px 20px; */
+  display: flex;
+  align-items: center;
+}
+.user .user-image img{
+  width: 65px;
+  height: auto;
+  border-radius: 50%;
+}
+.user .user-text2{
+  margin-left: 18px;
+}
+.user .user-text2 h4{
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+.user .user-text2 h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #97989a;
+}
+.id-section hr{
+  color: #8d9ff1;
+}
+.id-card {
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background: #E7431E;
+  margin-bottom: 15px;
+}
+.id-card .id-card-icon{
+  background: #0AB2BE;
+  padding: 8px 13px 8px 13px;
+  border-radius: 0px 10px 10px 0px;
+  margin-left: -10px;
+}
+.id-card .id-card-icon i{
+  color: #3FFF00;
+  width: 15px;
+}
+.id-card-text{
+  margin-left: 18px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+.id-card-2{
+  background: #0074B5;
+}
+.id-card-2 .id-card-icon{
+  background: #FFBD17;
+}
+.id-card-3{
+  background: #F9C300;
+}
+.id-card-3 .id-card-icon{
+  background: #038330;
+}
+.id-card-4{
+  background: #341EE7;
+}
+.id-card-4 .id-card-icon{
+  background: #0AB2BE;
+}
+.id-card-5{
+  background: #06C954;
+}
+.id-card-5 .id-card-icon{
+  background: #D51E1E;
+}
+.id-card-6{
+  background: #FF3131;
+  margin-bottom: 0px;
+}
+.id-card-6 .id-card-icon{
+  background: #4785C5;
+}
+.news-section h6{
+  font-size: 22px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+.news-section a img{
+  margin:30px 0px;
+}
+.read-more-section h6{
+  text-align: right;
+}
+.read-more-section h6 a{
+  font-size:  22px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+.read-more-section h6 a:hover{
+  color: #0070b6;
+}
+.read-more-section h5 {
+  font-size:  1.5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: #000;
+  padding-top:20px ;
+}
+.read-more-section p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.read-more-section a{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+/*news-container end */
